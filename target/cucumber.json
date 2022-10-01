@@ -1,0 +1,38 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-28T23:47:10.269Z",
+        "line": 4,
+        "name": "First scenario",
+        "description": "",
+        "id": "api-workflow-resource;first-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "a JWT is generated",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "API workflow resource",
+    "description": "",
+    "id": "api-workflow-resource",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/API.feature",
+    "tags": []
+  }
+]
